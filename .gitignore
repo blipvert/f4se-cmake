@@ -34,8 +34,10 @@
 # Compiled Papyrus scripts
 *.pex
 
-# Ignore any build directory
+# Ignore any build directory or out directory
 /build/
+/out/
 
-# Ignore VS Code dirs
+# Ignore VS or VS Code dirs
+.vs/
 .vscode/
