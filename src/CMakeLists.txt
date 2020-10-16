@@ -19,7 +19,7 @@ add_compile_definitions(
 )
 
 if (MSVC)
-  add_compile_options(/FI"common/IPrefix.h")
+  add_compile_options(/FIcommon/IPrefix.h)
 endif ()
 
 include_directories(.)
